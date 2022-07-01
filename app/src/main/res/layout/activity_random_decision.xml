@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0A0A0A"
+    tools:context=".RandomDecisionActivity">
+
+    <TextView
+        android:id="@+id/randomDecisionView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:text="@string/decision_appears_here"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.226" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/startBtn2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_background"
+        android:onClick="setStartBtn"
+        android:padding="20dp"
+        android:text="@string/start"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.612"
+        tools:ignore="UsingOnClickInXml" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/addDecisionBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_background"
+        android:onClick="AddDecisionBtn"
+        android:padding="20dp"
+        android:text="@string/add_decisions"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/startBtn2"
+        app:layout_constraintStart_toStartOf="@+id/startBtn2"
+        app:layout_constraintTop_toBottomOf="@+id/startBtn2"
+        app:layout_constraintVertical_bias="0.222"
+        tools:ignore="UsingOnClickInXml" />
+</androidx.constraintlayout.widget.ConstraintLayout>

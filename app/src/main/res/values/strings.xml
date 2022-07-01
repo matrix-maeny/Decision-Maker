@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Decision Maker</string>
+    <string name="about">About</string>
+    <string name="_0">0</string>
+    <string name="to">to</string>
+    <string name="_10">10</string>
+    <string name="start">start</string>
+    <string name="add_decisions">Add Decisions</string>
+    <string name="decision_appears_here">Decision appears here</string>
+    <string name="range">Range :</string>
+    <string name="random_decisions">Random Decisions</string>
+    <string name="random_number">Random number</string>
+    <string name="todo">TODO</string>
+    <string name="enter_decision">Enter decision…!</string>
+    <string name="add">Add</string>
+    <string name="ok">OK</string>
+    <string name="about_app">Hi, I\'m Matrix.\n\nThis is a simple app you can use in tough times.\n\nIt consists of a Random Number Generator and Random Decision maker.\n\nIf you have to get a simple decisions, you can use Random number generator.\n\nIf you want to take tough decisions, you can use Random Decision Maker. \n\nCaution:-------\n\nIt is just a Random generator, you can use this when you\'ve a lot of decisions with same PRIORITY.\n\nTo delete a decision when you\'re adding, press and hold on the decision it will delete it automatically.\n\n\nSerial no: 12\nDate of creation: 28 February 2022\nContact us: matrixinventions@gmail.com</string>
+    <string name="about_application">Hi, I\'m Matrix.\n\nThis is a simple app you can use in tough times.\n\nIt consists of a Random Number Generator and Random Decision maker.\n\nIf you have to get a simple decisions, you can use Random number generator.\n\nIf you want to take tough decisions, you can use Random Decision Maker. \n\nCaution:-------\n\nIt is just a Random generator, you can use this when you\'ve a lot of decisions with same PRIORITY.\n\nTo delete a decision when you\'re adding, press and hold on the decision it will delete it automatically.\n\n\nSerial no: 12\nDate of creation: 28 February 2022\nContact us: matrixinventions@gmail.com</string>
+</resources>

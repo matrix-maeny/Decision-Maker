@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/decision_dialog_background"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="4dp"
+                android:text="@string/add_decisions"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/enterDecision"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/enter_text_background"
+                    android:ems="10"
+                    android:hint="@string/enter_decision"
+                    android:inputType="textPersonName"
+                    android:padding="10dp"
+                    android:textColor="@color/white"
+                    android:textColorHint="#676767"
+                    android:textSize="20sp"
+                    tools:ignore="TouchTargetSizeCheck" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/dialogAddBtn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/button_background"
+                    android:text="@string/add"
+                    android:textColor="@color/white"
+                    tools:ignore="UsingOnClickInXml" />
+            </LinearLayout>
+
+            <ListView
+                android:id="@+id/dialogDecisionList"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_weight="1" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/dialogOkBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/button_background"
+                android:text="@string/ok"
+                android:textColor="@color/white" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

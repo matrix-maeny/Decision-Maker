@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0A0A0A"
+    tools:context=".RandomNumberActivity">
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/startBtn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@drawable/button_background"
+        android:onClick="startBtn1"
+        android:text="@string/start"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.81"
+        tools:ignore="UsingOnClickInXml" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.62">
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="@string/range"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp" />
+
+        <View
+            android:id="@+id/view"
+            android:layout_width="10dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <EditText
+            android:id="@+id/rangeStart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/button_background"
+            android:gravity="center"
+            android:inputType="number"
+            android:padding="20dp"
+            android:text="@string/_0"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            tools:ignore="UsingOnClickInXml" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/to"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp" />
+
+        <EditText
+
+            android:id="@+id/rangeEnd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/button_background"
+            android:gravity="center"
+            android:inputType="number"
+            android:padding="20dp"
+            android:text="@string/_10"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            tools:ignore="UsingOnClickInXml" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/randomNumberText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/_0"
+        android:textColor="#FFFFFF"
+        android:textSize="60sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.319" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
